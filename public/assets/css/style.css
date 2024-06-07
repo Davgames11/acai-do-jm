@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
+
+:root {
+    --primary-color: #440381;
+    --secondary-color: #ff3366;
+    --tertiary-color: #797d81;
+    --danger-color: #8783d1;
+    --warning-color: #f5d491;
+}
+
+body {
+    font-family: "Carter One", system-ui;
+}
+nav {
+    font-family: "Sora", sans-serif;
+}
+
+#logo {
+    width: 150px;
+    height: 150px;
+}
+
+.headerback {
+    background-image: url("../img/promoJM.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height: 80vh;
+}
+
+#navText {
+    color: white;
+}
+
+#navText:hover {
+    color: var(--tertiary-color);
+    text-shadow: 2px 2px 2px #000000;
+}
+
+#franquiaLogo {
+    width: 50%;
+    height: 80vh;
+}
+
+.franquiaInfo {
+    background-color: #f5deb3a8;
+    width: 50%;
+}
+
+#franquiaText {
+    color: var(--primary-color);
+    text-shadow: 1px 1px 1px #000000;
+}
+
+#botaoSobre {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+}
+
+#botaoSobre:hover {
+    background-color: white;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+}
+
+#botaoSocio {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+}
+
+#botaoSocio:hover {
+    background-color: #f5deb3a8;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+}
+
+#produtos {
+    background-color: rgba(255, 255, 255, 0.815);
+    color: var(--primary-color);
+    min-height: 80vh;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#carouselText1 {
+    position: absolute;
+    top: 100%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+}
+#carouselText2 {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#carouselText3 {
+    position: absolute;
+    top: 100%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel-inner {
+    height: 80vh;
+}
+
+.carousel-text {
+    font-size: 1.8rem;
+}
+
+.carousel-control-prev-icon {
+    background-color: var(--primary-color);
+}
+
+.carousel-control-next-icon {
+    background-color: var(--primary-color);
+}
+
+#sobrenosTitle {
+    color: var(--primary-color);
+    text-shadow: 1px 1px 1px #000000;
+}
+
+#sobrenosText {
+    color: var(--tertiary-color);
+}
+
+#sobrenosTextBold {
+    color: var(--primary-color);
+}
+
+#sobrenosImg {
+    width: 400px;
+    height: 400px;
+}
+
+footer {
+    font-family: "Sora", sans-serif;
+    background-color: var(--primary-color);
+    color: white;
+    width: 100%;
+    padding-top: 0.5rem;
+    min-height: 35vh;
+}
+
+#logoFooter {
+    width: 150px;
+    height: 150px;
+}
+
+#backgroundNavContato {
+    background-color: #360266f3;
+    height: 25vh;
+}
+
+#formContato {
+    display: flex;
+    flex-direction: column;
+}
+
+#formContatoDiv2 {
+    border-radius: 30px;
+    background-color: #ffffffa8;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#btnContato {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+}
+
+#btnContato:hover {
+    background-color: white;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+}
+
+#h1Contato {
+    color: var(--primary-color);
+    text-shadow: 1px 1px 1px #000000;
+}
+
+#labelContato {
+    color: rgba(138, 137, 137, 0.849);
+}
+
+#h1Form {
+    color: #000000;
+}
+
+#iconContato {
+    color: var(--primary-color);
+    size: 1.5rem;
+}
+
+#respostaContato {
+    color: #6b6a6a;
+}
+
+#sobreNosDiv {
+    background-color: #ffffffa8;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    min-height: 60vh;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+#sobreNosText {
+    color: var(--primary-color);
+}
+
+#sobreNosPageImg {
+    width: 400px;
+    height: 60vh;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#sobreNosDiv2 {
+    background-color: #ffffffa8;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    min-height: 60vh;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#sobreNosPageImg2 {
+    width: 400px;
+    height: 60vh;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+#redesSociais {
+    color: var(--primary-color) !important;
+}
+
+#hallFamaTitle {
+    color: var(--primary-color);
+    text-shadow: 1px 1px 1px #000000;
+}
+
+#halloffameIMG {
+    width: 20vw;
+    height: 20vw;
+}
+
+#descricaoPT {
+    color: var(--tertiary-color);
+}
+
+#cardHallFama {
+    background-color: #ffffffa8;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cardHallFama:hover {
+    background-color: var(--primary-color);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.1);
+}
+
+#cardHallFama:hover #cardTitlePT {
+    color: white;
+}
